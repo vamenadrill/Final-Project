@@ -16,8 +16,6 @@ Cart is saved in localStorage so it stays even after refreshing
 
 Responsive design that works well on mobile
 
-Mobile menu toggle button with animated dropdown
-
 🧰 Built With
 
 ⚛️ React
@@ -53,7 +51,7 @@ Clone the repo:
 bash
 Copy
 Edit
-git clone https://github.com/vamenadrill/Final-Project
+git clone https://github.com/vamenadrill/Final-Project.git
 cd myshop
 Install dependencies:
 
