@@ -1,0 +1,50 @@
+.cart-message {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.message-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  background: rgba(30, 30, 40, 0.95);
+  border: 1px solid #7f5af0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  animation: slide-in 0.3s ease-out;
+}
+
+.message-box span:first-child {
+  font-size: 1.2rem;
+  color: #7f5af0;
+}
+
+.message-box span:last-child {
+  color: white;
+  font-weight: 500;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.cart-message.fade-out {
+  animation: fade-out 0.3s ease-in;
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
