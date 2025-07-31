@@ -1,7 +1,7 @@
 🛍️ MyShop - React Shopping Cart App
 
 Hey there! 👋
-This is the final project of ITI React intership and it is shopping cart web app built with React. It’s designed to help you practice key React concepts while building something useful and real-world-like.
+This is ITI final project and it is shopping cart web app built with React. It’s designed to help you practice key React concepts while building something useful and real-world-like.
 
 🚀 Features
 View a list of products (using an API like Fake Store API)
